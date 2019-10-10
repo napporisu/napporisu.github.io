@@ -1,24 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="http://napporisu.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://napporisu.github.io/</loc>
+    <loc>http://napporisu.github.io/</loc>
     <lastmod>2019-09-29T16:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://napporisu.github.io/posts/</loc>
+    <loc>http://napporisu.github.io/post/</loc>
     <lastmod>2019-09-29T16:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://napporisu.github.io/posts/from-today-begin-blog/</loc>
+    <loc>http://napporisu.github.io/post/from-today-begin-blog/</loc>
     <lastmod>2019-09-29T16:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://napporisu.github.io/tags/</loc>
+    <loc>http://napporisu.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://napporisu.github.io/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

@@ -1,117 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Posts on Hugo Hermit</title>
-		<link>https://napporisu.github.io/posts/</link>
-		<description>Recent content in Posts on Hugo Hermit</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sun, 29 Sep 2019 16:00:00 +0000</lastBuildDate>
-		<atom:link href="https://napporisu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>今日から始まるぞ。ブログ</title>
-			<link>https://napporisu.github.io/posts/from-today-begin-blog/</link>
-			<pubDate>Sun, 29 Sep 2019 16:00:00 +0000</pubDate>
-			
-			<guid>https://napporisu.github.io/posts/from-today-begin-blog/</guid>
-			<description>やぱり、長い時間でパソコン関する技術はやっていなかったので、このブログ作成したは多少手数があるだ。 次は、ブログ作成の手順を紹介していきます。</description>
-			<content type="html"><![CDATA[
-
-<p>やぱり、長い時間でパソコン関する技術はやっていなかったので、このブログ作成したは多少手数があるだ。</p>
-
-<p>次は、ブログ作成の手順を紹介していきます。</p>
-
-<h2 id="プロバイダの選ぶ-hugo-https-gohugo-io-hugo">プロバイダの選ぶ、<a href="https://gohugo.io/" title="Hugo">Hugo</a></h2>
-
-<p>かつて <a href="https://ghost.org/">Ghost</a> を利用したんだけど、いろいろな問題が発生しました。</p>
-
-<p>テーマは少ないし、動的セーバーを必要し、<code>CJK-Languages</code> サーポートできないし。その様子を見るだけで、微妙な異物を出てきましたが、それでやめてほうがいいと思いました。</p>
-
-<p>自分のはmacOS 環境だから、<a href="https://brew.sh/" title="Homebrew">Homebrew</a> でインストールしよう。</p>
-
-<pre><code>brew install hugo
-</code></pre>
-
-<p><a href="https://brew.sh/" title="Homebrew">Homebrew</a> を持っていない方は、下のコマンドを実行してください</p>
-
-<pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-</code></pre>
-
-<h2 id="サイトを作る">サイトを作る</h2>
-
-<p>文章を打ち込み前に、もうひとつことを忘れないでください。それはベースとしたサイトです、これも簡単。</p>
-
-<pre><code>hugo new site [site name]
-</code></pre>
-
-<p><code>[site name]</code>とは、このサイトのネームです。どんなネームでも良い。</p>
-
-<h2 id="記事を発表">記事を発表</h2>
-
-<p>まず、サイトのディレクトリに移動します。</p>
-
-<pre><code>cd [site name] //先に作ったサイトネーム
-</code></pre>
-
-<p>例えば、<code>はじめのブログ</code>をタイトルとして扱う際は。</p>
-
-<pre><code>hugo new posts/hajimenoburogu.md
-</code></pre>
-
-<p><code>hajimenoburogu</code>のファイルネームは、URLの中に表示されるので、ローマ字とより英語方がいいと思います。</p>
-
-<p>こういう風になります。</p>
-
-<pre><code>---
-title: &quot;hajimenoburogu&quot;
-date: 2019-09-29T00:00:00+09:00
-draft: true
----
-</code></pre>
-
-<ul>
-<li><code>title</code> は、記事のタイトルです。<code>はじめのブログ</code>を入れ替えるのもできます。</li>
-<li><code>draft: true</code> は、未公開になるので、公開する際は <code>false</code> にする</li>
-</ul>
-
-<h2 id="ローカルサーバで確認">ローカルサーバで確認</h2>
-
-<p>ここまで、ブログのサイトはみたいでしょう？ローカルサーバでプレビューもできる。</p>
-
-<pre><code>hugo server -D
-</code></pre>
-
-<ul>
-<li><code>-D</code> をつけると<code>draft: true</code> の記事もプレビューできる</li>
-<li><a href="http://localhost:1313/">http://localhost:1313/</a> でチェックする</li>
-</ul>
-
-<p>確認もオッケーとしたら、ウェブサイトとして公開しましょう</p>
-
-<h2 id="github-pagesで利用">Github Pagesで利用</h2>
-
-<p><a href="https://github.com/" title="Github">Github</a>のアカウントを作成するの条件はただひとつ、メールアドバイスだけで十分。</p>
-
-<p><code>Github Pages</code> 用のレポジトリは、[<code>username].github.io</code> とのようなルールを絶対に守る。もちろん、<code>[username]</code> は Github アカウントの名です。</p>
-
-<p><code>hugo</code> コマンドでビルドすると、<code>public</code> に公開用ファイルが作成される。そして、中身を全部pushしよう。</p>
-
-<pre><code>hugo
-cd public
-git add .
-git commit -m 'initial commit'
-git remote add origin git@github.com:[username]/[username].github.io.git
-git push -u origin master
-</code></pre>
-
-<p>これで、<code>[username].github.io</code> まだ見えないですが、github 自身もプログラムを実行するのは時間がかかりますので、たぶん数分後見えるでしょう。</p>
-
-<h2 id="おわり">おわり</h2>
-
-<p>やぱり、日本語でこの記事を書くのは、無理やりすぎない。</p>
-]]></content>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>Posts on Even - A super concise theme for Hugo</title>
+    <link>http://napporisu.github.io/posts/</link>
+    <description>Recent content in Posts on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Sep 2019 16:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://napporisu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>今日から始まるぞ。ブログ</title>
+      <link>http://napporisu.github.io/posts/from-today-begin-blog/</link>
+      <pubDate>Sun, 29 Sep 2019 16:00:00 +0000</pubDate>
+      
+      <guid>http://napporisu.github.io/posts/from-today-begin-blog/</guid>
+      <description>やぱり、長い時間でパソコン関する技術はやっていなかったので、このブログ作成したは多少手数があるだ。 次は、ブログ作成の手順を紹介していきます。</description>
+    </item>
+    
+  </channel>
 </rss>
