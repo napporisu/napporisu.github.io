@@ -7,9 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 29 Sep 2019 16:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://napporisu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>今日から始まるぞ。ブログ</title>
+      <link>https://napporisu.github.io/posts/from-today-begin-blog/</link>
+      <pubDate>Sun, 29 Sep 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://napporisu.github.io/posts/from-today-begin-blog/</guid>
+      <description>やぱり、長い時間でパソコン関する技術はやっていなかったので、このブログ作成したは多少手数があるだ。 次は、ブログ作成の手順を紹介していきます。</description>
+    </item>
     
   </channel>
 </rss>
