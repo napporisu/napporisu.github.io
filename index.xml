@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Even - A super concise theme for Hugo</title>
+    <title>Forever until my life</title>
     <link>http://napporisu.github.io/</link>
-    <description>Recent content on Even - A super concise theme for Hugo</description>
+    <description>Recent content on Forever until my life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>jp</language>
+    <language>en</language>
     <lastBuildDate>Sun, 13 Oct 2019 02:57:57 +0900</lastBuildDate>
     
 	<atom:link href="http://napporisu.github.io/index.xml" rel="self" type="application/rss+xml" />
