@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Sep 2019 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Oct 2019 02:57:57 +0900</lastBuildDate>
     
 	<atom:link href="http://napporisu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>のんびりしたの一日</title>
+      <link>http://napporisu.github.io/post/a-lazy-day/</link>
+      <pubDate>Sun, 13 Oct 2019 02:57:57 +0900</pubDate>
+      
+      <guid>http://napporisu.github.io/post/a-lazy-day/</guid>
+      <description>また来ました、この嫌な気持ちが、一日中に何もしたくないんです。 朝から寝坊して、11時にすぎで起きました。あとずっとパソコンやタブレットで無駄</description>
+    </item>
+    
+    <item>
+      <title>やっと書きました。この記事</title>
+      <link>http://napporisu.github.io/post/success-for-this-article/</link>
+      <pubDate>Fri, 11 Oct 2019 02:16:56 +0900</pubDate>
+      
+      <guid>http://napporisu.github.io/post/success-for-this-article/</guid>
+      <description>パソコン関する技術は、専門用語がたくさんありますので、本番で書いたことが、やぱり大変難しいである。 その記事は、10日前に書くつもりだけど、7</description>
+    </item>
     
     <item>
       <title>今日から始まるぞ。ブログ</title>
