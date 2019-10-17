@@ -3,21 +3,28 @@
   
   <url>
     <loc>http://napporisu.github.io/</loc>
-    <lastmod>2019-10-13T02:57:57+09:00</lastmod>
+    <lastmod>2019-10-14T23:35:32+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://napporisu.github.io/post/</loc>
-    <lastmod>2019-10-13T02:57:57+09:00</lastmod>
+    <lastmod>2019-10-14T23:35:32+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://napporisu.github.io/post/not-go-to-school-for-a-long-time/</loc>
+    <lastmod>2019-10-14T23:35:32+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://napporisu.github.io/post/a-lazy-day/</loc>
-    <lastmod>2019-10-13T02:57:57+09:00</lastmod>
+    <lastmod>2019-10-13T00:57:57+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
